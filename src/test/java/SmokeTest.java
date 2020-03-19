@@ -22,3 +22,4 @@ public class SmokeTest {
         smokeSteps.i_should_see_header_text("Hello, I'm SURVEYLYZER!");
     }
 }
+

@@ -2,11 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>surveylyzer</artifactId>
+        <groupId>zhaw-psit4</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>zhaw-psit4</groupId>
-    <artifactId>surveylyzer_ui_testing</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>surveylyzer-ui-testing</artifactId>
 
     <dependencies>
 
@@ -223,5 +226,4 @@
         <versions-maven-plugin.version>2.7</versions-maven-plugin.version>
         <rerunFailingTestsCount>0</rerunFailingTestsCount>
     </properties>
-
 </project>
