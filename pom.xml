@@ -212,7 +212,7 @@
         <browserstack.local.version>1.0.3</browserstack.local.version>
         <browserstack.automate-plugin.version>0.7.2-SNAPSHOT</browserstack.automate-plugin.version>
 
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <slf4j.version>1.6.1</slf4j.version>
         <assertj.version>3.12.2</assertj.version>
 
